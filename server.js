@@ -12944,7 +12944,7 @@ app.get('/', (req, res) => {
             client: client || "locator",
             lat: lat || "-38",
             lng: lng || "84",
-            stores: stores || "0500",
+            stores: stores || "0400",
         }
     })
         .then((response) => {

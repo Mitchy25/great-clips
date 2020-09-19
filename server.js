@@ -12942,8 +12942,8 @@ app.get('/', (req, res) => {
     axios.get("https://www.stylewaretouch.net/checkin/wa/jsonMarkers", {
         params: {
             client: client || "locator",
-            lat: lat || "38.221278",
-            lng: lng || "-85.537778"
+            lat: lat || "28.094218",
+            lng: lng || "-82.511677"
         }
     })
         .then((response) => {
